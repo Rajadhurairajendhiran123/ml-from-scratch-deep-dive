@@ -1,15 +1,38 @@
----
 
-### 🧠🔧 ML From Scratch - Deep Understanding
+```markdown
+# 🤖 ML From Scratch - Deep Understanding 🚀
 
-**📂 Repo Name**: `ml-from-scratch-deep-dive`
-
-**📝 Description**:
-> A collection of machine learning algorithms implemented from scratch with detailed explanations and insights. This repository aims to provide a deep understanding of how ML algorithms work under the hood, without relying on high-level libraries like scikit-learn.
+Welcome to **ML From Scratch - Deep Dive**, a repository dedicated to learning and implementing machine learning algorithms **from the ground up**. No libraries like Scikit-learn or TensorFlow—just pure Python, NumPy, and mathematical intuition.
 
 ---
 
-### 📁 Recommended Folder Structure
+## 📌 Motivation
+
+This project is designed to:
+
+- Understand ML algorithms at the core level (mathematics + code).
+- Build algorithms manually instead of using built-in functions.
+- Strengthen problem-solving, debugging, and research skills.
+- Create a solid base for advanced topics like Deep Learning and Reinforcement Learning.
+
+---
+
+## 🧠 Algorithms Covered
+
+| Category         | Algorithms                                  | Status     |
+|------------------|---------------------------------------------|------------|
+| Linear Models    | Linear Regression, Logistic Regression      | ✅ Done     |
+| Tree Models      | Decision Tree, ID3, Gini Index               | 🛠 In Progress |
+| Clustering       | K-Means, Hierarchical Clustering             | ❌ Pending  |
+| Distance-Based   | K-Nearest Neighbors (KNN)                    | ❌ Pending  |
+| Probabilistic    | Naive Bayes                                  | ❌ Pending  |
+| Dimensionality   | PCA (Principal Component Analysis)           | ❌ Pending  |
+| Neural Networks  | 1-Layer NN, Backpropagation, MLP             | ❌ Pending  |
+| Optimization     | SGD, Batch GD, Adam                          | ❌ Pending  |
+
+---
+
+## 🧾 Folder Structure
 
 ```
 ml-from-scratch-deep-dive/
@@ -18,8 +41,7 @@ ml-from-scratch-deep-dive/
 ├── LICENSE
 ├── requirements.txt
 │
-├── datasets/
-│   └── sample datasets for testing
+├── datasets/                # Sample CSVs for testing
 │
 ├── linear_models/
 │   ├── linear_regression.py
@@ -36,52 +58,14 @@ ml-from-scratch-deep-dive/
 │
 ├── utils/
 │   ├── metrics.py
+│   ├── data_loader.py
 │   └── visualization.py
 │
 └── notebooks/
-    └── examples_and_explanations.ipynb
+    └── linear_regression_demo.ipynb
 ```
 
 ---
-
-### 🧠 Topics to Cover (Suggestions)
-- Linear Regression (Gradient Descent / Normal Equation)
-- Logistic Regression
-- Decision Trees
-- KNN (K-Nearest Neighbors)
-- Naive Bayes
-- K-Means Clustering
-- PCA (Principal Component Analysis)
-- SVM (Support Vector Machines)
-- Neural Networks (1-layer, then multi-layer)
-- Backpropagation
-- Optimization Algorithms (SGD, Adam)
-
----
-
-### 🧑‍💻 README.md Template (Starter)
-
-```markdown
-# ML From Scratch - Deep Dive 🚀
-
-This repository contains machine learning algorithms implemented from scratch using Python and NumPy. The goal is to learn how these models work at the lowest level and build a strong foundation in ML theory and practice.
-
-## 📚 Topics Covered
-
-- [x] Linear Regression
-- [ ] Logistic Regression
-- [ ] Decision Trees
-- [ ] KNN
-- [ ] K-Means Clustering
-- [ ] PCA
-- [ ] Neural Networks
-
-## 📁 Structure
-
-Each algorithm has:
-- Implementation in Python
-- Code-level explanation in comments
-- Jupyter notebooks for examples and visualization
 
 ## 🛠 Requirements
 
@@ -89,19 +73,47 @@ Each algorithm has:
 pip install -r requirements.txt
 ```
 
-## 📌 Motivation
+Main dependencies:
 
-Understanding ML models from scratch helps:
-- Build confidence for interviews and research
-- Improve debugging skills
-- Understand how frameworks like scikit-learn or TensorFlow work under the hood
+- numpy
+- matplotlib
+- pandas
+- jupyter
 
-## 📬 Contributing
+---
 
-Feel free to fork, raise issues, or submit pull requests!
+## 📊 Examples
+
+Jupyter Notebooks are available in the `notebooks/` folder to visualize training and test results.
+
+```bash
+jupyter notebook notebooks/linear_regression_demo.ipynb
+```
+
+---
+
+## 🌟 Coming Soon
+
+- Clean visualizations for tree and cluster-based models.
+- Explanatory blog-style markdowns for each algorithm.
+- Interview-oriented conceptual questions.
+- Interactive notebooks on Colab.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to fork the repo, make changes, and submit a pull request.
+
+---
 
 ## 📄 License
 
-MIT License
-```
+This project is licensed under the MIT License. See the `LICENSE` file for details.
 
+---
+
+## 💬 Connect
+
+Built with ❤️ for learning and sharing. If you're on the same journey, feel free to connect and collaborate!
+```
